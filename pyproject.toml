@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=65.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiktokdl"
+version = "1.0.0"
+description = "CLI metadata viewer and downloader for public TikTok videos"
+readme = "README.md"
+authors = [
+    { name = "sanzydev" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.27.0",
+    "rich>=13.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/sanzydev/tiktokdl"
+Author = "https://github.com/sanzydev"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+tiktokdl = "main:main"
+
+[tool.setuptools]
+packages = ["cli", "config", "core", "network", "providers", "providers.tiktok", "utils"]
+py-modules = ["main"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["."]
+
+[tool.pyright]
+include = ["main.py", "cli", "config", "core", "network", "providers", "tests", "utils"]
+exclude = ["**/_pyrefly_virtual_*", "**/_pyrefly_virtual_*/**", "**/__pycache__", ".pytest_cache", "downloads"]
+
+[tool.pyrefly]
+include = ["main.py", "cli", "config", "core", "network", "providers", "tests", "utils"]
+exclude = ["**/_pyrefly_virtual_*", "**/_pyrefly_virtual_*/**", "**/__pycache__", ".pytest_cache", "downloads"]

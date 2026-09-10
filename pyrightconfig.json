@@ -1,0 +1,19 @@
+{
+  "include": [
+    "main.py",
+    "cli",
+    "config",
+    "core",
+    "network",
+    "providers",
+    "tests",
+    "utils"
+  ],
+  "exclude": [
+    "**/_pyrefly_virtual_*",
+    "**/_pyrefly_virtual_*/**",
+    "**/__pycache__",
+    ".pytest_cache",
+    "downloads"
+  ]
+}
