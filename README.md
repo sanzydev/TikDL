@@ -7,8 +7,8 @@ Developed by [@sanzydev](https://github.com/sanzydev).
 ## Install
 
 ```bash
-git clone https://github.com/sanzydev/tiktokdl.git
-cd tiktokdl
+git clone https://github.com/sanzydev/TikDL.git
+cd TikDL
 pip install -r requirements.txt
 ```
 
