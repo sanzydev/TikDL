@@ -14,7 +14,7 @@
 
 ---
 
-## ⚡ Architecture Flow
+## Architecture Flow
 
 ```mermaid
 flowchart TD
@@ -28,18 +28,18 @@ flowchart TD
 
 ---
 
-## ✨ Features
+## Features
 
-- **⚡ Zero Headless Browser Overhead** – No heavy Selenium, Playwright, or Chrome required. Powered by direct streaming HTTP client.
-- **🛡️ Built-in WAF Bypass** – Resilient against TikTok security challenges and anti-bot verification.
-- **📸 Full Photo Slideshow Support** – Extracts and batch downloads all high-resolution images from photo posts.
-- **🎵 Direct Audio Download** – Grab public background audio tracks directly as `.mp3` with `-a`.
-- **📊 Pure JSON Metadata** – First-class JSON output format, ready for scripting or piping into `jq`.
-- **🎨 Interactive Terminal UI** – Smooth download progress bars and styled visual cards powered by Rich.
+- **Zero Headless Browser Overhead** – No heavy Selenium, Playwright, or Chrome required. Powered by direct streaming HTTP client.
+- **Built-in WAF Bypass** – Resilient against TikTok security challenges and anti-bot verification.
+- **Full Photo Slideshow Support** – Extracts and batch downloads all high-resolution images from photo posts.
+- **Direct Audio Download** – Grab public background audio tracks directly as `.mp3` with `-a`.
+- **Pure JSON Metadata** – First-class JSON output format, ready for scripting or piping into `jq`.
+- **Interactive Terminal UI** – Smooth download progress bars and styled visual cards powered by Rich.
 
 ---
 
-## 📦 Installation
+## Installation
 
 Install directly from **[PyPI](https://pypi.org/project/tikdl/)**:
 
@@ -57,7 +57,7 @@ pip install -e .
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. View Metadata (JSON)
 Outputs clean JSON without downloading any files:
@@ -105,7 +105,7 @@ tikdl -f urls.txt -d
 
 ---
 
-## ⚙️ CLI Reference
+## CLI Reference
 
 | Flag | Description |
 | :--- | :--- |
@@ -120,10 +120,10 @@ tikdl -f urls.txt -d
 
 ---
 
-## ⭐ Support
+## Support
 
-If you find **TikDL** helpful, give it a star on [GitHub](https://github.com/sanzydev/TikDL)!
+If you find **TikDL** helpful, give it a star on [GitHub](https://github.com/sanzydev/TikDL).
 
-## 📄 License
+## License
 
 Distributed under the [MIT License](LICENSE). Developed by [@sanzydev](https://github.com/sanzydev).
