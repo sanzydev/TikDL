@@ -12,7 +12,18 @@
   <b>Fast, minimal CLI tool to inspect metadata (JSON) and download public TikTok videos, photo albums, and audio.</b>
 </p>
 
+<p align="center">
+  Available for: <b>Python (PyPI)</b> | <a href="https://github.com/sanzydev/tikdl-js"><b>JavaScript / Node.js (npm)</b></a>
+</p>
+
 ---
+
+## Ecosystem
+
+| Language | Registry | Quick Run / Install | Repository |
+| :--- | :--- | :--- | :--- |
+| **Python** | [PyPI](https://pypi.org/project/tikdl/) | `pip install tikdl` | [sanzydev/TikDL](https://github.com/sanzydev/TikDL) *(this repo)* |
+| **JavaScript / Node.js** | [npm](https://www.npmjs.com/package/tikdl) | `npx tikdl <url>` | [sanzydev/tikdl-js](https://github.com/sanzydev/tikdl-js) |
 
 ## Architecture Flow
 
