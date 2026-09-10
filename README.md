@@ -53,12 +53,6 @@ python main.py "https://www.tiktok.com/@user/video/1234567890" -c
 | `--debug` | Enable verbose diagnostic logs |
 | `-v, --version` | Show application version |
 
-## Testing
-
-```bash
-python -m pytest tests/ -v
-```
-
 ## License
 
 MIT
