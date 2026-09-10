@@ -3,9 +3,9 @@ requires = ["setuptools>=65.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tiktokdl"
+name = "tikdl"
 version = "1.0.0"
-description = "CLI metadata viewer and downloader for public TikTok videos"
+description = "CLI metadata viewer and downloader for public TikTok videos, photos, and audio"
 readme = "README.md"
 authors = [
     { name = "sanzydev" }
@@ -27,6 +27,7 @@ dev = [
 ]
 
 [project.scripts]
+tikdl = "main:main"
 tiktokdl = "main:main"
 
 [tool.setuptools]

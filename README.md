@@ -7,13 +7,13 @@ Developed by [@sanzydev](https://github.com/sanzydev).
 ## Install
 
 ```bash
-git clone https://github.com/sanzydev/TikDL.git
-cd TikDL
-pip install -r requirements.txt
+pip install tikdl
 ```
 
-Optionally install globally:
+Or from source:
 ```bash
+git clone https://github.com/sanzydev/TikDL.git
+cd TikDL
 pip install -e .
 ```
 
