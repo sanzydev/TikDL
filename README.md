@@ -120,9 +120,19 @@ tikdl -f urls.txt -d
 
 ---
 
-## Support
+## Star History
 
-If you find **TikDL** helpful, give it a star on [GitHub](https://github.com/sanzydev/TikDL).
+<p align="center">
+  <a href="https://star-history.dera.page/#sanzydev/TikDL&Date">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanzydev/TikDL&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanzydev/TikDL&type=Date" />
+      <img alt="TikDL Star History Chart" src="https://api.star-history.com/svg?repos=sanzydev/TikDL&type=Date" width="600" />
+    </picture>
+  </a>
+</p>
+
+---
 
 ## License
 
