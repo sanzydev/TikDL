@@ -20,10 +20,14 @@
 
 ## Ecosystem
 
+TikDL is available in both Python and JavaScript / Node.js implementations:
+
 | Language | Registry | Quick Run / Install | Repository |
 | :--- | :--- | :--- | :--- |
-| **Python** | [PyPI](https://pypi.org/project/tikdl/) | `pip install tikdl` | [sanzydev/TikDL](https://github.com/sanzydev/TikDL) *(this repo)* |
-| **JavaScript / Node.js** | [npm](https://www.npmjs.com/package/tikdl) | `npx tikdl <url>` | [sanzydev/tikdl-js](https://github.com/sanzydev/tikdl-js) |
+| **Python** | [![PyPI](https://img.shields.io/pypi/v/tikdl.svg?color=00f2fe&style=flat-square)](https://pypi.org/project/tikdl/) | `pip install tikdl` | [sanzydev/TikDL](https://github.com/sanzydev/TikDL) *(this repo)* |
+| **JavaScript / Node.js** | [![npm](https://img.shields.io/npm/v/tikdl.svg?color=cb3837&style=flat-square)](https://www.npmjs.com/package/tikdl) | `npx tikdl <url>` | [sanzydev/tikdl-js](https://github.com/sanzydev/tikdl-js) |
+
+---
 
 ## Architecture Flow
 
