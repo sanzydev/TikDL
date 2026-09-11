@@ -4,6 +4,7 @@
   <a href="https://pypi.org/project/tikdl/"><img src="https://img.shields.io/pypi/v/tikdl.svg?color=00f2fe&style=flat-square" alt="PyPI version"></a>
   <a href="https://pypi.org/project/tikdl/"><img src="https://img.shields.io/pypi/dm/tikdl?color=4facfe&style=flat-square" alt="PyPI downloads"></a>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.12+-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python 3.12+"></a>
+  <img src="https://komarev.com/ghpvc/?username=sanzydev-tikdl&color=00f2fe&style=flat-square&label=views" alt="Repository Views">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License: MIT"></a>
   <a href="https://github.com/sanzydev/TikDL"><img src="https://img.shields.io/github/stars/sanzydev/TikDL?style=social" alt="GitHub Stars"></a>
 </p>
